@@ -1,0 +1,26 @@
+{
+  "schema": "logslines/v1",
+  "timestamp": "2026-09-27T04:30:00.000Z",
+  "level": "error",
+  "event": "memory.remove_failed",
+  "message": "Memory removal failed",
+  "service": {
+    "namespace": "openlines",
+    "name": "nanomneme",
+    "component": "nmnm-pi",
+    "version": "0.3.0"
+  },
+  "context": {
+    "session_id": null
+  },
+  "operation": "remove",
+  "status": "failed",
+  "duration_ms": 1.5,
+  "attributes": {},
+  "error": {
+    "kind": "unknown",
+    "code": "remove_failed",
+    "message": "Memory removal failed",
+    "retryable": false
+  }
+}

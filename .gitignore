@@ -1,0 +1,7 @@
+## internal docs/research
+plans/
+specs/
+archive/
+
+## build
+node_modules/

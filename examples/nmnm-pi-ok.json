@@ -1,0 +1,21 @@
+{
+  "schema": "logslines/v1",
+  "timestamp": "2026-09-27T04:30:00.000Z",
+  "level": "info",
+  "event": "memory.retained",
+  "message": "Memory retention completed",
+  "service": {
+    "namespace": "openlines",
+    "name": "nanomneme",
+    "component": "nmnm-pi",
+    "version": "0.3.0"
+  },
+  "context": {
+    "session_id": "host-session-7"
+  },
+  "operation": "retain",
+  "status": "ok",
+  "duration_ms": 2.4,
+  "attributes": {},
+  "error": null
+}
